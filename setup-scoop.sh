@@ -1,7 +1,7 @@
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
-scoop install nano git-with-openssh touch gcc busybox concfg 7zip curl wget cowsay dart figlet ffmpeg go grep kotlin tar lua pshazz r rsync rust sudo unrar unzip which zip processhacker whois
+scoop install nano git-with-openssh touch gcc busybox concfg 7zip curl wget cowsay dart figlet ffmpeg go grep kotlin tar lua pshazz r rsync rust sudo unrar unzip which zip processhacker whois python say
 
 scoop bucket add extras
 
@@ -18,7 +18,7 @@ scoop install moonscript love kitty
 scoop bucket add versions
 scoop bucket add love-versions https://github.com/Guard13007/ScoopBucket-LoveVersions
 
-#scoop install love0.9.2   # check this is the lowest supported version of Pop.Box
-#scoop reset love          # fix love to point to latest version
+scoop install love0.9.1 love0.9.2 love0.10.0 love0.10.1 love0.10.2
+scoop reset love   # fix love to point to latest version
 
-#scoop install ruby19
+scoop install ruby19
