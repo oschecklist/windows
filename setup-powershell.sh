@@ -1,0 +1,3 @@
+# This doesn't feel like it fits in setup-scoop.sh, but it doesn't feel like it deserves its own file though...
+
+Update-Help
