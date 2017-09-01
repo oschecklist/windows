@@ -1,4 +1,3 @@
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 # note: would prefer to install openssh and git separately, but those packages are broken at the time of writing
