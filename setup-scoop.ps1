@@ -1,6 +1,8 @@
+# Note: Some downloads require IE to be started and an option chosen from the first-run security pop-up.
+
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
-# note: would prefer to install openssh and git separately, but those packages are broken at the time of writing
+# would prefer to install openssh and git separately, but those packages are broken at the time of writing
 scoop install git-with-openssh
 
 scoop bucket add extras
