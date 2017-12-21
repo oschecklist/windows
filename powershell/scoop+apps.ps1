@@ -10,13 +10,13 @@ scoop bucket add extras
 # CLI tools
 scoop install nano touch gcc busybox concfg curl wget ffmpeg grep pshazz rsync sudo which whois ln
 # Utilities
-scoop install 7zip tar unrar zip unzip processhacker kitty lynx make youtube-dl nmap autoruns ccleaner cmdow fciv
+scoop install 7zip tar unrar zip unzip processhacker kitty lynx make youtube-dl nmap autoruns ccleaner cmdow fciv windirstat winscp speedcrunch qbittorrent oraclejre keepassxc
 # Languages / Programming
-scoop install dart go kotlin lua r rust python moonscript gradle haxe nodejs postgresql openjdk
+scoop install dart go kotlin lua r rust python moonscript gradle haxe nodejs postgresql oraclejdk
 # Editors
-scoop install notepadplusplus atom audacity blender gimp inkscape
+scoop install notepadplusplus atom audacity blender gimp inkscape patheditor
 # Media
-scoop install mpc-hc gource calibre foobar2000
+scoop install mpc-hc gource calibre foobar2000 sumatrapdf
 # Social
 scoop install telegram hexchat
 # Browsing
