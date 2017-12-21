@@ -8,17 +8,19 @@ scoop install git-with-openssh
 scoop bucket add extras
 
 # CLI tools
-scoop install nano touch gcc busybox concfg curl wget ffmpeg grep pshazz rsync sudo which whois
+scoop install nano touch gcc busybox concfg curl wget ffmpeg grep pshazz rsync sudo which whois ln
 # Utilities
-scoop install 7zip tar unrar zip unzip processhacker kitty
+scoop install 7zip tar unrar zip unzip processhacker kitty lynx make youtube-dl nmap autoruns ccleaner cmdow fciv
 # Languages / Programming
-scoop install dart go kotlin lua r rust python moonscript
+scoop install dart go kotlin lua r rust python moonscript gradle haxe nodejs postgresql openjdk
 # Editors
-scoop install notepadplusplus atom
+scoop install notepadplusplus atom audacity blender gimp inkscape
 # Media
-scoop install mpc-hc
+scoop install mpc-hc gource calibre foobar2000
 # Social
-scoop install telegram
+scoop install telegram hexchat
+# Browsing
+scoop install chromium firefox
 # Gaming / Game Dev
 scoop install love steam-library-manager
 # Silly
