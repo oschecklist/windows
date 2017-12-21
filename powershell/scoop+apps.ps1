@@ -13,10 +13,14 @@ scoop install nano touch gcc busybox concfg curl wget ffmpeg grep pshazz rsync s
 scoop install 7zip tar unrar zip unzip processhacker kitty
 # Languages / Programming
 scoop install dart go kotlin lua r rust python moonscript
+# Editors
+scoop install notepadplusplus atom
+# Media
+scoop install mpc-hc
 # Social
 scoop install telegram
 # Gaming / Game Dev
-scoop install love
+scoop install love steam-library-manager
 # Silly
 scoop install cowsay figlet say
 
