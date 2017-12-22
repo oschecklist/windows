@@ -1,0 +1,35 @@
+<p>The order of instructions / files / whatever I do when setting up Windows.</p>
+<ol>
+  <li>Install <a href="https://www.google.com/chrome/">Google Chrome</a>.</li>
+  <li>Install <a href="https://www.dropbox.com/install">Dropbox</a>.</li>
+  <li>Install <a href="http://scoop.sh/">scoop</a>.</li>
+  <li>Run
+    <code>
+      Set-MpPreference -ExclusionPath "$(Resolve-Path '~/scoop')"
+      Set-MpPreference -ExclusionPath "C:\ProgramData\scoop"
+    </code>
+    to stop Microsoft Defender from bothering scoop apps.
+  </li>
+  <li>Run <a href="https://github.com/oschecklist/windows/blob/master/powershell/scoop+apps.ps1">scoop+apps.ps1</a> script.</li>
+  <li>Set MPC-HC as the <a href="https://github.com/oschecklist/windows/blob/master/guides/MPC-HC%20As%20Default%20Media%20Player.md">default media player</a>.</li>
+  <li>Install <a href="http://store.steampowered.com/about/">Steam</a>.</li>
+  <li>Set up git:
+    <code>
+      git config --global user.email "paul.liverman.iii@gmail.com"
+      git config --global user.name "Paul Liverman III"
+      git config --global push.default simple
+      ssh-keygen -t rsa -b 4096 -C "paul.liverman.iii@gmail.com"
+      # ssh-agent -s   # shouldn't be needed, should already be started
+      ssh-add ~/.ssh/id_rsa
+      cat ~/.ssh/id_rsa.pub
+    </code>
+  </li>
+  <li>Install <a href="https://keybase.io/docs/the_app/install_windows">Keybase</a>.</li>
+  <li>Use UTC time on the hardware clock: <a href="https://github.com/oschecklist/windows/blob/master/utility/UTC%20Time.reg">regedit script</a></li>
+  <li>Run <code>Update-Help</code> in Powershell.</li>
+  <li>Install <a href="https://github.com/oschecklist/windows/tree/master/fonts">these fonts</a>.</li>
+</ol>
+<hr>
+<ol>
+  <li>Install <a href="https://cosmoteer.net/">Cosmoteer</a>.</li>
+</ol>
