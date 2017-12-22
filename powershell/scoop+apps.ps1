@@ -14,7 +14,7 @@ scoop install 7zip tar unrar zip unzip processhacker kitty lynx make youtube-dl 
 # Languages / Programming
 scoop install dart go kotlin lua r rust python moonscript gradle haxe nodejs postgresql oraclejdk
 # Editors
-scoop install notepadplusplus atom audacity blender gimp inkscape patheditor
+scoop install notepadplusplus atom audacity blender gimp inkscape patheditor krita
 # Media
 scoop install mpc-hc gource foobar2000 sumatrapdf
 # Social
