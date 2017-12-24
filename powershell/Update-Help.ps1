@@ -1,3 +1,3 @@
 # This doesn't feel like it fits in setup-scoop.sh, but it doesn't feel like it deserves its own file though...
 
-Update-Help   # should always be run as admib
+Update-Help   # should always be run as admin
