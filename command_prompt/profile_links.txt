@@ -1,0 +1,8 @@
+Move the following to D:/ before running:
+
+- Desktop
+- Documents
+- Downloads
+- Music
+- Pictures
+- Videos
