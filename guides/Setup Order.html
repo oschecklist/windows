@@ -1,5 +1,11 @@
 <p>The order of instructions / files / whatever I do when setting up Windows.</p>
 <ol>
+  <li>Install updates.</li>
+  <li>Set up a non-admin user to be used primarily and for all further steps.</li>
+  <li>Uninstall default crap from start menu.</li>
+  <li>Remove tiles and resize start menu.</li>
+  <li>Make all icons in tray show up.</li>
+  <li>Turn off Sticky Keys shortcut! (Press shift five times rapidly to trigger pop-up.)</li>
   <li>Install <a href="https://www.google.com/chrome/">Google Chrome</a>.</li>
   <li>Install <a href="https://www.dropbox.com/install">Dropbox</a>.</li>
   <li>Log into Dropbox / Chrome / GitHub.</li>
@@ -10,7 +16,7 @@
       Set-MpPreference -ExclusionPath "$(Resolve-Path '~/scoop')"<br/>
       Set-MpPreference -ExclusionPath "C:\ProgramData\scoop"
     </code><br/>
-    to stop Microsoft Defender from bothering scoop apps.
+    to stop Microsoft Defender from bothering scoop apps. Note: The first line only works on an administrator account..so you have to
   </li>
   <li>Run <a href="https://github.com/oschecklist/windows/blob/master/powershell/scoop+apps.ps1">scoop+apps.ps1</a> script.</li>
   <li>Set MPC-HC as the <a href="https://github.com/oschecklist/windows/blob/master/guides/MPC-HC%20As%20Default%20Media%20Player.md">default media player</a>.</li>
@@ -29,6 +35,7 @@
   <li>Install <a href="https://discordapp.com">Discord</a>.</li>
   <li>Install <a href="https://obsproject.com/download">OBS Studio</a>.</li>
   <li>Install <a href="https://lame.buanzo.org/#lamewindl">LAME for Audacity &amp; FFMPEG for Audacity</a>.</li>
+  <li>Install Sony Vegas Pro 12 (it's on the network drive).</li>
   <li>Install <a href="https://keybase.io/docs/the_app/install_windows">Keybase</a>.</li>
   <li>Use UTC time on the hardware clock: <a href="https://github.com/oschecklist/windows/blob/master/utility/UTC%20Time.reg">regedit script</a></li>
   <li>Run <code>Update-Help</code> in Powershell.</li>
@@ -36,13 +43,20 @@
   <li>Install <a href="https://www.libreoffice.org/download/download/">LibreOffice</a>.</li>
   <li>Install <a href="https://mega.nz/sync">MEGAsync</a>.</li>
   <li>Install <a href="https://secure.backblaze.com/win32/install_backblaze.exe">Backblaze</a>.</li>
-  <li>Copy startup program shortcuts to startup folder (<a href="https://github.com/oschecklist/windows/tree/master/utility/startup">here</a>).</li>
+  <li>Copy startup program shortcuts to startup folder (<a href="https://github.com/oschecklist/windows/tree/master/utility/startup">here</a>). (These programs won't run by default otherwise when the user is not an administrator.)</li>
   <li>Install <a href="http://tinywall.pados.hu/ccount/click.php?id=3">TinyWall</a>.</li>
-  <li>Import <a href="https://github.com/oschecklist/windows/blob/master/utility/tinywall.tws">saved TinyWall settings</a>.</li>
+  <li>Import <a href="https://github.com/oschecklist/windows/blob/master/utility/programs_settings/tinywall.tws">saved TinyWall settings</a>.</li>
   <li>Install <a href="https://www.piriform.com/ccleaner/download/standard">CCleaner</a>.</li>
+  <li>Copy start menu program shortcuts to start menu folder (<a href="https://github.com/oschecklist/windows/tree/master/utility/shortcuts">here</a>). (These shortcuts open as administrator for their programs to run correctly.)</li>
+  <li>Run CCleaner and tell it to save settings to INI file (under Options -> Advanced).</li>
+  <li>Close CCleaner and copy <a href="https://github.com/oschecklist/windows/blob/master/utility/programs_settings/ccleaner.ini">saved CCleaner settings</a>.</li>
+  <li>Further customize settings.</li>
+  .
 </ol>
 <hr>
 <ol>
+  <li>Install <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a>.</li>
+  <li>Install <a href="http://www.memuplay.com/download.php?file_name=Memu-Setup&from=official_release">Memu</a> (Android emulator).</li>
   <li>Install <a href="https://cosmoteer.net/">Cosmoteer</a>.</li>
   <li>Install bower for minetest mods: <code>npm install -g bower</code></li>
 </ol>
